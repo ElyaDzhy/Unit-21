@@ -8,11 +8,21 @@
 .flexContainer {
   display: flex;
   justify-content: space-evenly;
+
+  flex-flow: row wrap;
 }
 
 .flexItem {
+  order: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 300px;
+
+  /* flex-shrink: 1;
   flex-basis: 200px;
-  /* flex-shrink: ; */
+  flex-grow: 1; */
+
+  /* flex: <flex-grow> <flex-shrink> <flex-basis>; */
 }
 /* ---------- */
 /* 
