@@ -41,3 +41,7 @@ p#FT.pretty[lang="fr"] ~ h2 {
   color: blue;
   font-style: oblique;
 }
+
+#main {
+  color: red !important;
+}
