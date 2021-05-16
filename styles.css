@@ -1,0 +1,43 @@
+/* attribute selectors price-10*/
+/* 
+[attr=""] 10
+.class 10
+:hover 10
+*/
+
+[title] {
+  border: 1px dotted red;
+}
+
+p[lang="ru"] {
+  text-decoration: line-through;
+}
+
+h2 + p#FT.pretty[lang="fr"] {
+  color: darkolivegreen;
+}
+
+p#FT.pretty[lang="fr"] ~ h2 {
+  border: 1px solid blue;
+}
+
+[class|="class"] {
+  text-decoration: underline;
+}
+
+[class^="test"] {
+  color: green;
+  font-weight: bolder;
+}
+
+[class$="B"] {
+  font-size: 2rem;
+  color: red;
+  font-style: italic;
+}
+
+[title*="a"] {
+  text-align: end;
+  color: blue;
+  font-style: oblique;
+}
