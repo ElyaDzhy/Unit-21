@@ -1,0 +1,30 @@
+.listItem {
+  border: 1px solid black;
+  border-radius: 10px;
+  max-width: 700px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+
+  padding: 10px;
+}
+
+.oneLineText {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.listItem > * {
+  flex-grow: 0.5;
+}
+
+.eventName {
+  margin-left: auto;
+}
+
+.eventDate {
+  text-align: right;
+}
